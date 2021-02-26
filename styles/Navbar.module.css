@@ -1,0 +1,14 @@
+.navbarContainer{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.navUl{
+    display: flex;
+    flex-direction: row;
+}
+.navUl li{
+    padding: 2% 3%;
+    list-style: none;
+}

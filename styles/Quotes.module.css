@@ -1,0 +1,12 @@
+.quotesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleQuote{
+    border: black 2px solid;
+    margin: 10px 15px;
+    padding: 10px 12px;
+}
