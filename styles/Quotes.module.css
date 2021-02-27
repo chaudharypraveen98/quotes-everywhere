@@ -9,4 +9,23 @@
     border: black 2px solid;
     margin: 10px 15px;
     padding: 10px 12px;
+    background-color:white;
+    border-radius: 25px;
+}
+.quote{
+    color:#fc5185;
+}
+.author{
+    color:black;
+}
+.quote1{
+    color: white;
+}
+.singleQuoteContainer{
+    padding: 20px 30px;
+    text-align: center;
+}
+.button{
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.6);
 }

@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 
 import content from "../quotes.content.json";
 import QuotesList from "./../Components/QuotesList";
+import { server } from './../config/index';
 
 export default function Home({ quotes }) {
   return (
@@ -17,7 +18,7 @@ export default function Home({ quotes }) {
         {/* using styled Components */}
         <style jsx>{`
           .main-title {
-            color: red;
+            color: #43dde6;
           }
         `}</style>
         <QuotesList quotes={quotes} />
@@ -25,12 +26,20 @@ export default function Home({ quotes }) {
     </>
   );
 }
-
 export const getStaticProps = async () => {
-  const quotes = content;
+  const res = await fetch(`${server}/api/quotes`)
+  const quotes = await res.json();
   return {
     props: {
       quotes,
     },
   };
 };
+// export const getStaticProps = async () => {
+//   const quotes = content;
+//   return {
+//     props: {
+//       quotes,
+//     },
+//   };
+// };

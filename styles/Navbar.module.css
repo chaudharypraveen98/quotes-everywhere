@@ -7,7 +7,7 @@
 .navUl{
     display: flex;
     flex-direction: row;
-    margin-top: 0px;
+    margin: 0px;
 }
 .navUl li{
     padding: 2% 3%;
