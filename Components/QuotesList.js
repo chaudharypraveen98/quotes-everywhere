@@ -5,7 +5,7 @@ const QuotesList = ({ quotes }) => {
   return (
     <div className={styles.quotesContainer}>
       {quotes.map((quote) => (
-        <QuotesItem quote={quote}/>
+        <QuotesItem quote={quote} key={quote.id}/>
       ))}
     </div>
   );

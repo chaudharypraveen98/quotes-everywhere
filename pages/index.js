@@ -1,13 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Navbar from "../Components/Navbar";
-import content from "../quotes.content.json";
-import QuotesList from './../Components/QuotesList';
 
-export default function Home({quotes}) {
+import content from "../quotes.content.json";
+import QuotesList from "./../Components/QuotesList";
+
+export default function Home({ quotes }) {
   return (
     <>
-      <Navbar />
       <div className={styles.container}>
         <Head>
           <title>QuotesEverywhere</title>
@@ -21,17 +20,17 @@ export default function Home({quotes}) {
             color: red;
           }
         `}</style>
-        <QuotesList quotes={quotes}/>
+        <QuotesList quotes={quotes} />
       </div>
     </>
   );
 }
 
 export const getStaticProps = async () => {
-  const quotes = content.quotes;
+  const quotes = content;
   return {
     props: {
-      quotes
+      quotes,
     },
   };
 };
