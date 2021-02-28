@@ -1,11 +1,35 @@
 html,
-body {
+body{
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #364f6b;
+}
+body::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  clip-path: circle(30% at right 70%);
+  -webkit-clip-path: circle(30% at 10% 10%);
+  background: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );;
+
 }
 
+body::after{
+  position: absolute;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -webkit-clip-path: circle(30% at right 70%);
+  clip-path: circle(30% at right 70%);
+  background: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+}
 a {
   color: inherit;
   text-decoration: none;

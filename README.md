@@ -2,6 +2,10 @@
 This project will shows the quotes. It has a collection of 60 quotes in initial realease.
 It is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Preview:-
+<img src="QuotesEverywhere.png" alt="web preview">
+<br>
+
 First, run the development server:
 
 ```bash
@@ -29,4 +33,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Any suggestions are most welcomed. Feel free to make pull request. 
 
 ##### Last Update
-27 Feb 2021
+28 Feb 2021

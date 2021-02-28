@@ -1,31 +1,50 @@
-.quotesContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.quotesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.singleQuote{
-    border: black 2px solid;
-    margin: 10px 15px;
-    padding: 10px 12px;
-    background-color:white;
-    border-radius: 25px;
+.singleQuote {
+  border-top: rgba(255, 255, 255, 0.5) 2px solid;
+  border-left: rgba(255, 255, 255, 0.5) 2px solid;
+  margin: 10px 15px;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.01);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  padding:1% 2%;
 }
-.quote{
-    color:#fc5185;
+.singleQuote .quote {
+  color: #fc5185;
+  padding-top: 50px;
 }
-.author{
-    color:black;
+.author {
+  color: #fff98c;
 }
-.quote1{
-    color: white;
+
+.singleQuoteContainer {
+  padding: 20px 30px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
 }
-.singleQuoteContainer{
-    padding: 20px 30px;
-    text-align: center;
+.quote1 {
+  color: white;
 }
-.button{
-    padding: 10px 12px;
-    background-color: rgba(255, 255, 255, 0.6);
+.button {
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.quoteNumber {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  font-size: 44px;
+  color: rgba(255, 255, 255, 0.1);
+}
+.singleQuoteNumber{
+    color: #fc5185;
+    font-size: 24px;
 }

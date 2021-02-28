@@ -5,6 +5,7 @@ const QuotesItem = ({ quote }) => {
   return (
     <Link href={`/quotes/${quote.id}`}>
       <div className={styles.singleQuote}>
+        <h1 className={styles.quoteNumber}>{quote.id}</h1>
         <h4 className={styles.quote}>
           {quote.quote.substring(0, 30) + "....."}
         </h4>

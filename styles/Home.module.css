@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: repeating-linear-gradient(333deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(119,47%,93%,0.05) 0px, hsla(119,47%,93%,0.05) 1px,transparent 1px, transparent 11px,hsla(119,47%,93%,0.05) 11px, hsla(119,47%,93%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(130, 26, 221),rgb(63, 178, 202));
+  z-index: 1;
 }
 
 .main {
